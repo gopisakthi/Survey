@@ -1,0 +1,96 @@
+/***/
+
+:focus{outline: none;}
+
+.col-12{position: relative;} /* necessary to give position: relative to parent. */
+
+
+.effect-2 ~ .focus-border{position: absolute; bottom: 0; left: 50%; width: 0; height: 2px; background-color: darkviolet; transition: 0.4s;}
+.effect-2:focus ~ .focus-border{width: 100%; transition: 0.4s; left: 0;}
+
+/***/
+
+h1 {
+    /* color: dodgerblue; */
+    text-align: center;
+    font-size: 42px;
+}
+
+.example-card {
+    
+    width: 100%;
+    max-width: 750px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.example-card1 {
+    
+    width: 100%;
+    height: 0px;
+    max-width: 762px; /* 750px */
+    padding:10px;
+    margin-left: 300px;
+    margin-top: 20px;
+    background-color: darkviolet;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+
+.example-card2 {
+    
+    border-radius: 6px;
+    width: 100%;
+    max-width: 750px;
+    margin-left: 300px;
+    /* margin-top: 2px; */
+}
+
+hr {
+    width: 100%;
+}
+
+h3 {
+    background-color: darkviolet;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+
+section {
+    display: table;
+  }
+  
+  .example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 120px;
+  }
+  
+  .example-button-row {
+    display: table-cell;
+    width: 490px;
+  }
+  
+  .example-button-row .mat-button-base {
+    margin: 8px 8px 8px 0;
+  }
+  
+  .example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+  }
+
+  

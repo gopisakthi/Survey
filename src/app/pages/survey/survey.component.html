@@ -1,0 +1,67 @@
+<p>survey works!</p>
+<mat-card class="example-card1">
+</mat-card>
+<mat-card class="example-card2">
+  <div>
+    <h3></h3>
+  </div>
+  <div>
+    <h1>Organization Survey - Teams & Projects</h1>
+    <hr>
+  </div>
+</mat-card>
+<mat-card class="example-card">
+  <div >
+    <h2>Name</h2><br />
+    <div class="col-12" style="width: fit-content;">
+      <input class="effect-2"  (change)="names()" id="name" style="width: -webkit-fill-available; border-top: none; border-left: none; border-right: none; outline: none;"
+      placeholder="Your answer" type="text" required />
+      <span class="focus-border"></span>
+    </div>
+    
+  </div>
+  <mat-card-content>
+  </mat-card-content>
+</mat-card>
+<mat-card class="example-card">
+  <div>
+    <h2>Name of your Team Lead</h2><br />
+    <div class="col-12" style="width: fit-content;">
+      <input class="effect-2"  (change)="names()" id="lead" style="width: -webkit-fill-available; border-top: none; border-left: none; border-right: none; outline: none;"
+      placeholder="Your answer" type="text" required />
+      <span class="focus-border"></span>
+    </div>
+  </div>
+  <mat-card-content>
+  </mat-card-content>
+</mat-card>
+<mat-card class="example-card">
+  <div>
+    <h2>Name of your Immediate Manager</h2><br />
+    <div class="col-12" style="width: fit-content;">
+      <input class="effect-2"  (change)="names()" id="manager" style="width: -webkit-fill-available; border-top: none; border-left: none; border-right: none; outline: none;"
+      placeholder="Your answer" type="text" required />
+      <span class="focus-border"></span>
+    </div>
+  </div>
+  <mat-card-content>
+  </mat-card-content>
+  
+</mat-card>
+<br/>
+
+  <div class = "col-sm-6" style = "margin-left: 22%;">
+    <section>
+      <div class="example-button-row">
+        <button mat-flat-button color="primary">Next</button>
+      </div>
+    </section>
+  </div>
+
+  <div class = "col-sm-6"  style = "margin-left: 73%; margin-top: -4%;">
+    <section>
+      <div class="example-button-row">
+        <button mat-raised-button color="warn">Clear form</button>
+      </div>
+    </section>
+  </div>
